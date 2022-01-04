@@ -39,7 +39,7 @@ class SpringframeworkLesson15ApplicationTests {
 
     @Test
     void moreProductsAreFoundTest() {
-        List<String> input = Arrays.asList("aa","bbbb","ccc");
+        List<String> input = Arrays.asList("aa","bbbb","cccc");
         //assumptions
         given(productRepositoryFake.getProductNames()).willReturn(input);
 
