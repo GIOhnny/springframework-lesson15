@@ -35,7 +35,6 @@ class SpringframeworkLesson15ApplicationTests {
 
         //assertions
         assertTrue(res.isEmpty());
-
     }
 
     @Test
@@ -49,7 +48,6 @@ class SpringframeworkLesson15ApplicationTests {
 
         //assertions
         assertEquals(2,res.size());
-
     }
 
 }
