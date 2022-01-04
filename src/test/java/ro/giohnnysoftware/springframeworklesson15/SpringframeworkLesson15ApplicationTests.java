@@ -35,6 +35,7 @@ class SpringframeworkLesson15ApplicationTests {
 
         //assertions
         assertTrue(res.isEmpty());
+
     }
 
     @Test
